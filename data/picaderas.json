@@ -1,56 +1,48 @@
 [
   {
     "name": "Albóndigas Rellenas c/ Queso",
-    "description": "",
     "size": "330g",
     "price": 750,
     "available": true
   },
   {
     "name": "Bolitas de Queso",
-    "description": "",
     "size": "330g",
     "price": 750,
-    "available": true
+    "available": false
   },
   {
     "name": "Hamburguesa Clandestino c/ Mariquitas",
-    "description": "",
     "size": "300g",
     "price": 750,
     "available": true
   },
   {
     "name": "Pan c/ Bistec",
-    "description": "",
     "size": "330g",
     "price": 1200,
     "available": true
   },
   {
     "name": "Pan c/ Hamburguesa y Bistec",
-    "description": "",
     "size": "500g",
     "price": 1500,
     "available": true
   },
   {
     "name": "Pollo Frito",
-    "description": "",
     "size": "460g",
     "price": 2500,
     "available": true
   },
   {
     "name": "Bistec de Cerdo",
-    "description": "",
     "size": "460g",
     "price": 2500,
     "available": true
   },
   {
     "name": "Entremés de Queso",
-    "description": "",
     "size": "200g",
     "price": 1500,
     "available": true
