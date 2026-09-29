@@ -1,56 +1,48 @@
 [
   {
     "name": "Expresso",
-    "description": "",
     "size": "60ml",
     "price": 200,
     "available": true
   },
   {
     "name": "Americano",
-    "description": "",
     "size": "60ml",
     "price": 200,
     "available": true
   },
   {
     "name": "Café c/ Queso",
-    "description": "",
     "size": "60ml",
     "price": 250,
     "available": true
   },
   {
     "name": "Cortadito",
-    "description": "",
     "size": "60ml",
     "price": 300,
     "available": true
   },
   {
     "name": "Affogato",
-    "description": "",
     "size": "60ml",
     "price": 500,
-    "available": true
+    "available": false
   },
   {
     "name": "Café 3 Leches",
-    "description": "",
     "size": "200ml",
     "price": 650,
     "available": true
   },
   {
     "name": "Café Bombón",
-    "description": "",
     "size": "200ml",
     "price": 650,
     "available": true
   },
   {
     "name": "Capuchino",
-    "description": "",
     "size": "300ml",
     "price": 650,
     "available": true
