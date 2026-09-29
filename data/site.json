@@ -1,0 +1,41 @@
+{
+  "title": "Clandestinos Bar Café",
+  "tagline": "¡La clandestinidad es la única patriot posible!",
+  "location": "Sala 3D del Parque Céspedes. Bayamo, Granma",
+  "hours": {
+    "lunes_viernes": "9:00 am – 11:00 pm",
+    "sabados": "9:00 am – 12:00 am",
+    "domingos": "9:00 am – 11:00 pm"
+  },
+  "whatsapp": "https://chat.whatsapp.com/DpYHrHnc0Et0QYqDgPfUHF?s=cl&p=a&mlu=4&ilr=4",
+  "facebook": "https://www.facebook.com/profile.php?id=61575835956587",
+  "currency": "$",
+  "show_unavailable": true,
+  "categories": [
+    {
+      "id": "picaderas",
+      "title": "PICADERAS",
+      "emoji": "🍴",
+      "visible": true
+    },
+    {
+      "id": "cafes",
+      "title": "CAFÉS",
+      "emoji": "☕",
+      "visible": true
+    },
+    {
+      "id": "bebidas-cervezas",
+      "title": "BEBIDAS & CERVEZAS",
+      "emoji": "🍺",
+      "visible": true
+    },
+    {
+      "id": "cocteleria-postres",
+      "title": "COCTELERÍA Y POSTRES",
+      "emoji": "🍸",
+      "visible": true
+    }
+  ],
+  "menu_note": "Este sitio es solo informativo. La disponibilidad y los precios pueden cambiar durante el servicio."
+}
