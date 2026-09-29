@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Pomo de Agua",
+    "description": "",
+    "size": "250ml",
+    "price": 200,
+    "available": true
+  },
+  {
+    "name": "Jugo de Caja",
+    "description": "",
+    "size": "200ml",
+    "price": 450,
+    "available": true
+  },
+  {
+    "name": "Refresco Enlatado",
+    "description": "",
+    "size": "330ml",
+    "price": 550,
+    "available": true
+  },
+  {
+    "name": "Cerveza Cristal",
+    "description": "",
+    "size": "330ml",
+    "price": 800,
+    "available": true
+  },
+  {
+    "name": "Cerveza Cristal Extra",
+    "description": "",
+    "size": "330ml",
+    "price": 800,
+    "available": true
+  },
+  {
+    "name": "Cerveza Valmero",
+    "description": "",
+    "size": "330ml",
+    "price": 650,
+    "available": true
+  },
+  {
+    "name": "Cerveza Calatrava",
+    "description": "",
+    "size": "330ml",
+    "price": 700,
+    "available": true
+  },
+  {
+    "name": "Cerveza La Nacional",
+    "description": "",
+    "size": "330ml",
+    "price": 700,
+    "available": true
+  }
+    ]
