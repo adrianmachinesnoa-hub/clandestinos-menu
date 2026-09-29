@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Servicio Michelada",
+    "description": "",
+    "size": "90ml",
+    "price": 500,
+    "available": true
+  },
+  {
+    "name": "Copa de Helado",
+    "description": "",
+    "size": "120g",
+    "price": 500,
+    "available": true
+  }
+]
