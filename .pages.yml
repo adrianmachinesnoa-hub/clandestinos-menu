@@ -1,0 +1,150 @@
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: site
+    label: Datos generales
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: title
+        label: Nombre del bar
+        type: string
+        required: true
+      - name: tagline
+        label: Frase
+        type: text
+      - name: location
+        label: Ubicación
+        type: string
+      - name: hours
+        label: Horarios
+        type: object
+        fields:
+          - name: lunes_viernes
+            label: Lunes a Viernes
+            type: string
+          - name: sabados
+            label: Sábados
+            type: string
+          - name: domingos
+            label: Domingos
+            type: string
+      - name: whatsapp
+        label: Enlace de WhatsApp
+        type: string
+      - name: facebook
+        label: Enlace de Facebook
+        type: string
+      - name: currency
+        label: Símbolo de precio
+        type: string
+      - name: show_unavailable
+        label: Mostrar productos agotados al público
+        type: boolean
+      - name: menu_note
+        label: Nota del menú
+        type: text
+      - name: categories
+        label: Categorías
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: id
+            label: ID interno
+            type: string
+            readonly: true
+          - name: title
+            label: Título visible
+            type: string
+          - name: emoji
+            label: Icono
+            type: string
+          - name: visible
+            label: Mostrar categoría
+            type: boolean
+
+  - name: picaderas
+    label: 🍴 Picaderas
+    type: file
+    path: data/picaderas.json
+    format: json
+    list: true
+    fields:
+      - name: name
+        label: Producto
+        type: string
+      - name: size
+        label: Tamaño
+        type: string
+      - name: price
+        label: Precio
+        type: number
+      - name: available
+        label: Disponible
+        type: boolean
+
+  - name: cafes
+    label: ☕ Cafés
+    type: file
+    path: data/cafes.json
+    format: json
+    list: true
+    fields:
+      - name: name
+        label: Producto
+        type: string
+      - name: size
+        label: Tamaño
+        type: string
+      - name: price
+        label: Precio
+        type: number
+      - name: available
+        label: Disponible
+        type: boolean
+
+  - name: bebidas
+    label: 🍺 Bebidas & Cervezas
+    type: file
+    path: data/bebidas-cervezas.json
+    format: json
+    list: true
+    fields:
+      - name: name
+        label: Producto
+        type: string
+      - name: size
+        label: Tamaño
+        type: string
+      - name: price
+        label: Precio
+        type: number
+      - name: available
+        label: Disponible
+        type: boolean
+
+  - name: cocteleria
+    label: 🍸 Coctelería y Postres
+    type: file
+    path: data/cocteleria-postres.json
+    format: json
+    list: true
+    fields:
+      - name: name
+        label: Producto
+        type: string
+      - name: size
+        label: Tamaño
+        type: string
+      - name: price
+        label: Precio
+        type: number
+      - name: available
+        label: Disponible
+        type: boolean

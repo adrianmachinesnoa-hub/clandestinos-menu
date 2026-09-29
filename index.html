@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="Menú digital de Clandestinos Bar Café, Bayamo.">
+  <title>Clandestinos Bar Café — Menú</title>
+  <link rel="icon" href="assets/logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <img class="logo" src="assets/logo.jpg" alt="Logo de Clandestinos Bar Café">
+      <p class="eyebrow">MENÚ DIGITAL</p>
+      <h1 id="siteTitle">Clandestinos Bar Café</h1>
+      <p id="tagline" class="tagline">¡La clandestinidad es la única patriot posible!</p>
+      <div class="quick-info">
+        <span id="location">📍 Sala 3D del Parque Céspedes. Bayamo, Granma</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="toolbar" aria-label="Controles del menú">
+      <div class="toolbar__text">
+        <strong>Lo que tenemos hoy</strong>
+        <span id="menuNote">Consulta disponibilidad antes de ordenar.</span>
+      </div>
+      <label class="switch">
+        <input id="onlyAvailable" type="checkbox">
+        <span class="switch__slider"></span>
+        <span class="switch__label">Solo disponibles</span>
+      </label>
+    </section>
+
+    <nav id="categoryNav" class="category-nav" aria-label="Categorías del menú"></nav>
+    <div id="menu" class="menu"></div>
+
+    <section class="info-card">
+      <div>
+        <p class="section-kicker">HORARIO DE ATENCIÓN</p>
+        <div class="hours" id="hours"></div>
+      </div>
+      <div>
+        <p class="section-kicker">ENCUÉNTRANOS</p>
+        <p id="addressInfo"></p>
+        <div class="socials">
+          <a id="waLink" class="social social--wa" target="_blank" rel="noopener">WhatsApp</a>
+          <a id="fbLink" class="social social--fb" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="qr-hint" aria-label="Información">
+      <div class="qr-hint__icon">▦</div>
+      <div>
+        <strong>Escanea el QR y revisa el menú</strong>
+        <p>Los productos pueden marcarse como <b>Agotado</b> durante el servicio. Esta página no realiza pagos ni cobros.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>CLANDESTINOS BAR CAFÉ</div>
+    <div class="footer__small">Bayamo, Granma · Menú informativo</div>
+  </footer>
+
+<script src="app.js"></script>
+</body>
+</html>
