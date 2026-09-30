@@ -15,13 +15,13 @@
     "name": "Refresco Enlatado",
     "size": "330ml",
     "price": 550,
-    "available": false
+    "available": true
   },
   {
     "name": "Cerveza Cristal",
     "size": "330ml",
     "price": 800,
-    "available": false
+    "available": true
   },
   {
     "name": "Cerveza Cristal Extra",
