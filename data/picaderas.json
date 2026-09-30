@@ -33,7 +33,7 @@
     "name": "Pollo Frito",
     "size": "460g",
     "price": 2500,
-    "available": true
+    "available": false
   },
   {
     "name": "Bistec de Cerdo",
@@ -44,6 +44,12 @@
   {
     "name": "Entremés de Queso",
     "size": "200g",
+    "price": 1500,
+    "available": true
+  },
+  {
+    "name": "Pollo Frito ",
+    "size": "350g",
     "price": 1500,
     "available": true
   }
