@@ -51,6 +51,6 @@
     "name": "Jugo Enlatado (Néctar)",
     "size": "330ml",
     "price": 800,
-    "available": false
+    "available": true
   }
 ]
