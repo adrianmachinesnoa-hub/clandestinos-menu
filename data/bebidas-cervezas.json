@@ -27,7 +27,7 @@
     "name": "Cerveza Cristal Extra",
     "size": "330ml",
     "price": 800,
-    "available": true
+    "available": false
   },
   {
     "name": "Cerveza Valmero",
