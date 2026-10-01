@@ -9,6 +9,6 @@
     "name": "Copa de Helado",
     "size": "120g",
     "price": 500,
-    "available": false
+    "available": true
   }
 ]
