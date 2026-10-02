@@ -27,7 +27,7 @@
     "name": "Affogato",
     "size": "60ml",
     "price": 500,
-    "available": false
+    "available": true
   },
   {
     "name": "Café 3 Leches",
