@@ -20,7 +20,7 @@
   {
     "name": "Cerveza Cristal",
     "size": "330ml",
-    "price": 800,
+    "price": 850,
     "available": true
   },
   {
@@ -38,8 +38,8 @@
   {
     "name": "Cerveza Calatrava",
     "size": "330ml",
-    "price": 700,
-    "available": false
+    "price": 750,
+    "available": true
   },
   {
     "name": "Cerveza La Nacional",
