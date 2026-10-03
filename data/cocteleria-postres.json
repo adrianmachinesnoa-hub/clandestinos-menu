@@ -3,12 +3,18 @@
     "name": "Servicio Michelada",
     "size": "90ml",
     "price": 500,
-    "available": false
+    "available": true
   },
   {
     "name": "Copa de Helado",
     "size": "120g",
-    "price": 500,
+    "price": 600,
+    "available": true
+  },
+  {
+    "name": "Copa de Helado Tres Gracias",
+    "size": "180g",
+    "price": 900,
     "available": true
   }
 ]
