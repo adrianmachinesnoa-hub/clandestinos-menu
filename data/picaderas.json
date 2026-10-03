@@ -3,7 +3,7 @@
     "name": "Albóndigas Rellenas c/ Queso",
     "size": "330g",
     "price": 750,
-    "available": false
+    "available": true
   },
   {
     "name": "Bolitas de Queso",
@@ -51,6 +51,12 @@
     "name": "Pollo Frito ",
     "size": "350g",
     "price": 1500,
+    "available": true
+  },
+  {
+    "name": "Súper Hamburguesa Clandestinos c/ Mariquitas",
+    "size": "450g",
+    "price": 1650,
     "available": true
   }
 ]
